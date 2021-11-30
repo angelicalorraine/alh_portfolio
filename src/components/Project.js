@@ -47,7 +47,7 @@ function Project() {
             <Container fluid>
 
                 {projects.map((project) => (
-                    <Row className={`${project.id}`}>
+                    <Row className={`${project.id} mb-4 `}>
 
                         <Row className={` ${project.name}Row projects`} key={project.id}>
                             <ProjectCard id={project.id} src={project.src} title={project.title} text={project.text} github={project.github} launch={project.launch} />

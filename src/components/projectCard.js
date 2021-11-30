@@ -5,7 +5,7 @@ import '../App.css';
 function ProjectCard(props) {
     return (
         <Card className="">
-            <Row className={props.id} >
+            <Row className={props.id}>
                 <Col className="border" sm={5}>
                     <Image className="image" src={props.src} height="225" />
                 </Col>

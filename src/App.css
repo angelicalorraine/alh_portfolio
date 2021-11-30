@@ -126,8 +126,8 @@ padding: 1rem 0px !important;
 .rgtProjectRow {
   border-radius: 25px 0px 0px 25px;
   max-width: 80% !important;
-  margin: 1rem;
-  border: rgb(216, 191, 203) 3px solid;
+
+  border: rgb(216, 191, 203) 4px solid;
 }
 
 .FavorTraderRow {
@@ -135,8 +135,8 @@ padding: 1rem 0px !important;
   flex-direction: row-reverse !important;
 
   max-width: 80% !important;
-  margin: 1rem;
-  border: rgb(191, 211, 216) 3px solid;
+
+  border: rgb(191, 211, 216) 4px solid;
 }
 
 .RGT {
@@ -157,7 +157,7 @@ padding: 1rem 0px !important;
 }
 
 .border {
-  border-radius: 25px 25px 25px 25px;
+
   display: flex;
   justify-content: center;
   align-items: center;
