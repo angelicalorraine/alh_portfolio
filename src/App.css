@@ -1,15 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+
+  padding: 0px !important;
+  height: 100vh;
+  width: 100% !important;
+min-height: 100vh;
 }
 
-.App {
-  text-align: center;
-  padding: 0px !important;
-  width: 100%;
-}
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -24,6 +28,7 @@ html, body {
     #79cbca 56%,
     #e684ae 100%
   );
+
   padding: 1rem !important;
   display: flex;
   flex-direction: column;
@@ -38,6 +43,10 @@ html, body {
     #79cbca 56%,
     #e684ae 100%
   );
+  margin-top: 2rem !important;
+
+  bottom: 0;
+  left: 0;
 
   color: white !important;
 }
@@ -51,10 +60,17 @@ h1 {
 }
 
 h3 {
-  margin: 0px !important;
+
   text-align: center;
   font-family: Roboto !important;
   font-size: 25px !important;
+}
+
+.shadowsFont {
+  font-family: 'Shadows Into Light Two', cursive !important;
+  font-size: 40px !important;
+  text-align: center;
+  margin: 2rem !important;
 }
 
 .nav {
@@ -198,4 +214,26 @@ a {
 .lead {
   display: flex;
   align-items: center;
+}
+
+tr {
+border-color: white !important;
+}
+
+.badgeTable {
+  display: flex;
+ 
+ justify-content: center;
+}
+
+.col-sm {
+display: flex;
+justify-content: center;
+padding: 0px !important;
+margin: 0px !important;
+
+}
+
+.badges {
+  padding:0px !important;
 }

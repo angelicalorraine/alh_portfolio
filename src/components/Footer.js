@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Footer() {
   return (
-    <Container fluid className="footer ">
+    <Container fluid className="footer">
       <Row className=" social ">
         <Col className="icons">
           <a href="https://www.linkedin.com/in/angelica-hernandez-301369130/">

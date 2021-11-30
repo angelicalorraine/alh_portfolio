@@ -14,9 +14,10 @@ function App() {
   return (
     <Router>
       <>
-        <Top />
        
+      <Top />
         <Switch>
+      
           <Route exact path='/alh_portfolio' component={Body} />
           <Route exact path='/about' component={About} />
           <Route exact path='/projects' component={Project} />
@@ -24,15 +25,11 @@ function App() {
 
           <Route render={() => <h1 className='display-2'>Wrong page!</h1>} />
         </Switch>
-        {/* <Body /> */}
+       
         <Footer />
       </>
     </Router>
-    // <Container fluid className="App">
 
-    //   <Body />
-    //   <Footer />
-    // </Container>
 
   );
 }

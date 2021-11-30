@@ -10,7 +10,8 @@ const About = () => (
                 <Col xs={12} sm={4}>
                     <Image className="gel" src={gel}></Image>
                 </Col>
-                <Col className="about" xs={12} sm={8}>
+                <Col className="about flex-column justify-content-center" xs={12} sm={8}>
+                    <h2 className="shadowsFont"> About Me </h2>
                     <p className="aboutme"> I am a passionate Full Stack Web Developer with a vast array of knowledge in many different front end and back end languages, responsive frameworks, databases, and best code practices. I am dedicated and eager to continue to learn, improve and update my skill set and problem solving techniques. I look forward to continuously gaining knowledge from my peers and work collaboratively with others while being able to contribute to the technology industry.</p>
                 </Col>
 

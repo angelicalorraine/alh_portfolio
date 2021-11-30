@@ -45,6 +45,7 @@ function Project() {
     return (
         <>
             <Container fluid>
+                <h2 className="shadowsFont">Projects</h2>
 
                 {projects.map((project) => (
                     <Row className={`${project.id} mb-4 `}>
