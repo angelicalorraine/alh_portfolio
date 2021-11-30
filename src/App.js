@@ -5,9 +5,9 @@ import Project from './components/Project';
 import Resume from "./components/Resume";
 import Top from './components/Top';
 import Footer from './components/Footer';
-import { Container } from 'react-bootstrap';
+
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navi from './components/Navbar';
+
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {

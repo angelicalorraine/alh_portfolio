@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Table, Button, Badge, Col, Row} from "react-bootstrap";
+import { Container, Button, Col, Row} from "react-bootstrap";
 
 export default function Resume() {
   return (

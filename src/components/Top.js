@@ -1,9 +1,8 @@
 import React from 'react';
 import '../App.css';
 import Nav from './Nav'
-import Navbar from './Navbar'
-import { Container, Row, Col, Image } from 'react-bootstrap';
-import gel from '../assets/gelly.png';
+import { Container} from 'react-bootstrap';
+
 
 export default function Top() {
     return (

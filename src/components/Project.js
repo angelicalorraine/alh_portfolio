@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, } from 'react-bootstrap';
 import '../App.css';
 import ProjectCard from './projectCard'
 import study from '../assets/StudyBuddy.png';
@@ -50,7 +50,7 @@ function Project() {
                 {projects.map((project) => (
                     <Row className={`${project.id} mb-4 `}>
 
-                        <Row className={` ${project.name}Row projects`} key={project.id}>
+                        <Row className={` ${project.name}Row projects`} key={project.title}>
                             <ProjectCard id={project.id} src={project.src} title={project.title} text={project.text} github={project.github} launch={project.launch} />
                         </Row>
                     </Row>

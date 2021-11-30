@@ -17,13 +17,13 @@ export default function Footer() {
       <Row className=" social ">
         <Col className="icons">
           <a href="https://www.linkedin.com/in/angelica-hernandez-301369130/">
-            <img className="socialicon" src={linkedIn} />{" "}
+            <img className="socialicon" src={linkedIn} alt="linkedIn Link" />{""}
           </a>
         </Col>
 
         <Col className="icons">
           <a href="https://github.com/angelicalorraine">
-            <img className="socialicon" src={github} />{" "}
+            <img className="socialicon" src={github} alt="github Link"/>{" "}
           </a>
         </Col>
 
