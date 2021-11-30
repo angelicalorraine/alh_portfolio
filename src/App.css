@@ -220,10 +220,11 @@ tr {
 border-color: white !important;
 }
 
-.badgeTable {
-  display: flex;
+.badgeCont {
  
- justify-content: center;
+
+  justify-content: center;
+max-width: 960px !important;
 }
 
 .col-sm {

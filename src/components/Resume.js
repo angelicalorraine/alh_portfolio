@@ -6,7 +6,7 @@ export default function Resume() {
     <>
       <Container>
         <h2 className="shadowsFont">Resume</h2>
-        <Container>
+        <Container className="badgeCont">
             <Row>
             <Col sm> 
               <Button className="badges"
