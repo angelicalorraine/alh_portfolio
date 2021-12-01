@@ -146,12 +146,10 @@ padding: 1rem 0px !important;
   border: rgb(216, 191, 203) 4px solid;
 }
 
-.FavorTraderRow {
+.lftProjectRow {
   border-radius: 0px 25px 25px 0px;
   flex-direction: row-reverse !important;
-
   max-width: 80% !important;
-
   border: rgb(191, 211, 216) 4px solid;
 }
 

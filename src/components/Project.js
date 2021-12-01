@@ -4,6 +4,7 @@ import '../App.css';
 import ProjectCard from './projectCard'
 import study from '../assets/StudyBuddy.png';
 import favor from '../assets/FavorTrader.png';
+import city from '../assets/Home.png';
 
 
 
@@ -21,20 +22,20 @@ const projects = [
     },
 
     {
-        name: "FavorTrader",
+        name: "lftProject",
         src: favor,
         title: "Favor Trader: Project 2",
-        text: "Our knowledge and newly learned skills were put to the test by creating a full stack web application. We conceived and executed a design using the MVC paradigm, create a server-side API, add user authentication, and connect to a database. Favor Trader is a neighborhood bartering platform for favors.It contains an Activity Feed where all user’s favors needs are listed.To begin trading, each user will need to log in or sign up and create a user profile.",
+        text: "Coming across an important milestone in our bootcamp journey we designed and built our first  full stack web application. We executed a design using the MVC paradigm, we combined a robust back end with servers, databases, advanced APIs, and user authentication with an intuitive front end. Favor Trader is a neighborhood bartering platform for favors.It contains an Activity Feed where all user’s favors needs are listed.To begin trading, each user will need to log in or sign up and create a user profile.",
         github: "https://github.com/angelicalorraine/Favor-Trader",
         launch: "https://favortrader.herokuapp.com",
         id: "SB",
     },
     {
         name: "rgtProject",
-        src: favor,
+        src: city,
         title: "Home City: Project 3",
-        text: "Our knowledge and newly learned skills were put to the test by creating a full stack web application. We conceived and executed a design using the MVC paradigm, create a server-side API, add user authentication, and connect to a database. Favor Trader is a neighborhood bartering platform for favors.It contains an Activity Feed where all user’s favors needs are listed.To begin trading, each user will need to log in or sign up and create a user profile.",
-        github: "https://github.com/angelicalorraine/Home-City",
+        text: "Home City allowed us to fullfill a real word need by creating our first collaborative MERN stack single-page application, with a focus on data and user demand. Using MongoDB back end, a GraphQL API, an Express.js and Node.js server with a React front end, implementing user authentication with JWT. This application allows users to search potential home cities and reports life-quality scores across various categories based on a 10-point scoring system. With additional functionality to set a Home City, save cities and compare statistics. ",
+        github: "https://github.com/angelicalorraine/Home_City",
         launch: "https://home-city-final.herokuapp.com",
 
         id: "RGT",
@@ -48,10 +49,12 @@ function Project() {
                 <h2 className="shadowsFont">Projects</h2>
 
                 {projects.map((project) => (
-                    <Row className={`${project.id} mb-4 `}>
+                    <Row className={`${project.id} mb-4`}>
 
-                        <Row className={` ${project.name}Row projects`} key={project.title}>
+                        <Row className={`p-2 ${project.name}Row projects`} key={project.github}>
+
                             <ProjectCard id={project.id} src={project.src} title={project.title} text={project.text} github={project.github} launch={project.launch} />
+
                         </Row>
                     </Row>
                 ))}
