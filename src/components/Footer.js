@@ -17,47 +17,41 @@ export default function Footer() {
       <Row className=" social ">
         <Col className="icons">
           <a href="https://www.linkedin.com/in/angelica-hernandez-301369130/">
-            <img className="socialicon" src={linkedIn} alt="linkedIn Link" />{""}
+            <img className="socialicon" src={linkedIn} alt="linkedIn Link" />
+            {""}
           </a>
         </Col>
 
         <Col className="icons">
           <a href="https://github.com/angelicalorraine">
-            <img className="socialicon" src={github} alt="github Link"/>{" "}
+            <img className="socialicon" src={github} alt="github Link" />{" "}
           </a>
         </Col>
 
         <Col className="icons">
-          <Col className="lead">
-            {" "}
+          <a
+            href="mailto:gel.lorraine@gmail.com?subject=Let's Connect!&body=Did we just become best friends?"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <span className="mx-2 h3">
-              {" "}
-              <FontAwesomeIcon icon={faEnvelope} />
+              <FontAwesomeIcon icon={faEnvelope} style={{ color: "white" }} />
             </span>
-            gel.lorraine@gmail.com
-          </Col>
+          </a>
         </Col>
         <Col className="icons">
-          <Col className="lead">
-            {" "}
+          <a href="tel:+1-562-321-0713">
             <span className="mx-2 h3">
-              {" "}
-              <FontAwesomeIcon icon={faPhone} />
+              <FontAwesomeIcon icon={faPhone} style={{ color: "white" }} />
             </span>
-            (562) 321-0713
-          </Col>
+          </a>
         </Col>
 
         <Col className="icons">
-          <Col className="lead">
-            <span className="mx-2 h3">
-              {" "}
-              <FontAwesomeIcon icon={faDownload} />
-            </span>{" "}
-            <a href={resume} target="_blank">
-              Angelica's Resume
-            </a>
-          </Col>
+          <span className="mx-2 h3">
+            <FontAwesomeIcon icon={faDownload} />
+          </span>
+          <a href={resume} target="_blank"></a>
         </Col>
       </Row>
     </Container>

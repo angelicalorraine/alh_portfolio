@@ -49,11 +49,11 @@ function Project() {
                 <h2 className="shadowsFont">Projects</h2>
 
                 {projects.map((project) => (
-                    <Row className={`${project.id} mb-4`}>
+                    <Row className={`${project.id} mb-4`} >
 
-                        <Row className={`p-2 ${project.name}Row projects`} key={project.github}>
+                        <Row className={`p-2 ${project.name}Row projects`}  key={project.github}>
 
-                            <ProjectCard id={project.id} src={project.src} title={project.title} text={project.text} github={project.github} launch={project.launch} />
+                            <ProjectCard id={`${project.id}Card`} src={project.src} title={project.title} text={project.text} github={project.github} launch={project.launch} />
 
                         </Row>
                     </Row>
