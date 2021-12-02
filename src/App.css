@@ -42,10 +42,8 @@ body {
     #e684ae 100%
   );
   margin-top: 2rem !important;
-
   bottom: 0;
   left: 0;
-
   color: white !important;
 }
 
@@ -235,4 +233,15 @@ tr {
   justify-content: center;
   padding: 0px !important;
   margin: 0px !important;
+}
+
+.badges {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.col-md-2 {
+  display: flex;
+  justify-content: center;
 }
