@@ -16,18 +16,19 @@ export default function Footer() {
     <Container fluid className="footer">
       <Row className=" social ">
         <Col className="icons">
-          <a href="https://www.linkedin.com/in/angelica-hernandez-301369130/">
+          <a
+            href="https://www.linkedin.com/in/angelica-hernandez-301369130/"
+            target="_blank"
+          >
             <img className="socialicon" src={linkedIn} alt="linkedIn Link" />
             {""}
           </a>
         </Col>
-
         <Col className="icons">
-          <a href="https://github.com/angelicalorraine">
+          <a href="https://github.com/angelicalorraine" target="_blank">
             <img className="socialicon" src={github} alt="github Link" />{" "}
           </a>
         </Col>
-
         <Col className="icons">
           <a
             href="mailto:gel.lorraine@gmail.com?subject=Let's Connect!&body=Did we just become best friends?"
@@ -46,13 +47,20 @@ export default function Footer() {
             </span>
           </a>
         </Col>
-
         <Col className="icons">
+          <a href={resume} target="_blank">
+            <span className="mx-2 h3">
+              <FontAwesomeIcon icon={faDownload} style={{ color: "white" }} />
+            </span>
+          </a>
+        </Col>
+
+        {/* <Col className="icons">
           <span className="mx-2 h3">
             <FontAwesomeIcon icon={faDownload} />
           </span>
           <a href={resume} target="_blank"></a>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   );

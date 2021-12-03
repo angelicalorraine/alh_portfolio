@@ -57,8 +57,8 @@ h1 {
 
 h3 {
   text-align: center;
-  font-family: Roboto !important;
-  font-size: 25px !important;
+  font-family: "Shadows Into Light Two", cursive !important;
+  font-size: 30px !important;
 }
 p {
   font-family: Roboto !important;
@@ -110,8 +110,8 @@ p {
 }
 
 .image {
-  width: 400px !important;
-  height: 245px !important;
+  width: 440px !important;
+  height: 310px !important;
   object-fit: cover !important;
 }
 
@@ -140,28 +140,16 @@ p {
   }
 }
 
-.studyBuddy {
-  display: flex !important;
-  margin: 1rem 0px !important;
-  justify-content: end;
-}
-
-.FavorTrader {
-  display: flex !important;
-  margin: 1rem 0px !important;
-  justify-content: start;
-}
-
 .rgtProjectRow {
   border-radius: 25px 0px 0px 25px;
   max-width: 80% !important;
-  border: rgb(216, 191, 203) 4px solid;
+  /* border: rgb(216, 191, 203) 4px solid;
 }
 .RGT,
 .RGTCard {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: end !important;
+  /* flex-direction: row-reverse; */
+  /* justify-content: end !important; */
   border-radius: 0px 25px 25px 0px;
 }
 
@@ -169,7 +157,7 @@ p {
   border-radius: 0px 25px 25px 0px;
   flex-direction: row-reverse !important;
   max-width: 80% !important;
-  border: rgb(191, 211, 216) 4px solid;
+  /* border: rgb(191, 211, 216) 4px solid; */
 }
 
 .project {
@@ -181,8 +169,13 @@ p {
   background-color: transparent !important;
   border: 0px !important;
 }
+.SB,
+.SBCard {
+  justify-content: flex-end;
+}
 
-.border {
+.borderCard {
+  border: 0px !important;
   display: flex;
   justify-content: center;
   align-items: center;
