@@ -188,7 +188,8 @@ a {
   object-fit: cover;
 }
 
-.col-md-2 {
+.col-md-2,
+.col-sm-6 {
   display: flex;
   justify-content: center;
 }
