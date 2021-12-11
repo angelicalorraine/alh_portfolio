@@ -8,10 +8,10 @@ export default function Resume() {
       <Container>
         <Row>
           <h2 className="shadowsFont">Resume</h2>
-          <Col sm={6}>
+          <Col>
             <Education />
           </Col>
-          <Col sm={6}></Col>
+          {/* <Col sm={6}></Col> */}
         </Row>
       </Container>
     </>
