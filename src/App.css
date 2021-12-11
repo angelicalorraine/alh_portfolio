@@ -147,12 +147,6 @@ p {
   align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    max-width: 100%;
-  }
-}
-
 .LFTCard {
   flex-direction: row-reverse;
 }
@@ -181,15 +175,6 @@ a {
   color: black !important;
 }
 
-.lead {
-  display: flex;
-  align-items: center;
-}
-
-tr {
-  border-color: white !important;
-}
-
 .col-sm {
   display: flex;
   justify-content: center;
@@ -207,34 +192,6 @@ tr {
   display: flex;
   justify-content: center;
 }
-
-/* .btnGrad {
-  background-image: linear-gradient(
-    to right,
-    #83a4d4 0%,
-    #82f1f7 51%,
-    #83a4d4 100%
-  );
-}
-.btnGrad {
-  border: none !important;
-  margin: 15px !important;
-  padding: 5px 25px !important;
-  text-align: center !important;
-
-  transition: 0.2s !important;
-  background-size: 200% auto !important;
-  color: rgb(61, 61, 61) !important;
-  box-shadow: 0 0 20px #eee !important;
-  border-radius: 10px !important;
-  display: block !important;
-}
-
-.btnGrad:hover {
-  background-position: right center; /* change the direction of the change here */
-/* color: #fff;
-  text-decoration: none;
-} */
 
 .btnGrad {
   background-image: linear-gradient(
