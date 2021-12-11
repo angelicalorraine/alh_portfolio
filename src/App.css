@@ -110,8 +110,8 @@ p {
 }
 
 .image {
-  width: 440px !important;
-  height: 310px !important;
+  width: 600px !important;
+  height: 450px !important;
   object-fit: cover !important;
 }
 
@@ -120,8 +120,8 @@ p {
   padding: 1rem 0px !important;
 }
 
-.projects {
-  animation-duration: 3s;
+/* .projects { */
+/* animation-duration: 3s;
   animation-name: slidein;
 
   animation-direction: alternate;
@@ -138,43 +138,14 @@ p {
     margin-left: 0%;
     width: 100%;
   }
-}
-
-.rgtProjectRow {
-  border-radius: 25px 0px 0px 25px;
-  max-width: 80% !important;
-  /* border: rgb(216, 191, 203) 4px solid;
-}
-.RGT,
-.RGTCard {
-  display: flex;
-  /* flex-direction: row-reverse; */
-  /* justify-content: end !important; */
-  border-radius: 0px 25px 25px 0px;
-}
-
-.lftProjectRow {
-  border-radius: 0px 25px 25px 0px;
-  flex-direction: row-reverse !important;
-  max-width: 80% !important;
-  /* border: rgb(191, 211, 216) 4px solid; */
-}
-
-.project {
-  display: flex !important;
-  justify-content: center !important;
-}
+} */
 
 .card {
   background-color: transparent !important;
   border: 0px !important;
 }
-.SB,
-.SBCard {
-  justify-content: flex-end;
-}
 
-.borderCard {
+.projectCard {
   border: 0px !important;
   display: flex;
   justify-content: center;
@@ -187,6 +158,9 @@ p {
   }
 }
 
+.LFTCard {
+  flex-direction: row-reverse;
+}
 .social {
   padding: 0.5rem;
   display: flex;
