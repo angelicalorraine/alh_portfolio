@@ -55,18 +55,13 @@ h1 {
   letter-spacing: 3px;
 }
 
-h3 {
-  text-align: center;
-  font-family: "Shadows Into Light Two", cursive !important;
-  font-size: 30px !important;
-}
 p {
   font-family: Roboto !important;
 }
 
 .shadowsFont {
   font-family: "Shadows Into Light Two", cursive !important;
-  font-size: 40px !important;
+  font-size: 43px !important;
   text-align: center;
   margin: 2rem !important;
 }
@@ -211,4 +206,60 @@ tr {
 .col-md-2 {
   display: flex;
   justify-content: center;
+}
+
+/* .btnGrad {
+  background-image: linear-gradient(
+    to right,
+    #83a4d4 0%,
+    #82f1f7 51%,
+    #83a4d4 100%
+  );
+}
+.btnGrad {
+  border: none !important;
+  margin: 15px !important;
+  padding: 5px 25px !important;
+  text-align: center !important;
+
+  transition: 0.2s !important;
+  background-size: 200% auto !important;
+  color: rgb(61, 61, 61) !important;
+  box-shadow: 0 0 20px #eee !important;
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+.btnGrad:hover {
+  background-position: right center; /* change the direction of the change here */
+/* color: #fff;
+  text-decoration: none;
+} */
+
+.btnGrad {
+  background-image: linear-gradient(
+    to right,
+    #6ac7c7 0%,
+    #83dddd 51%,
+    #6ac7c7 100%
+  );
+}
+.btnGrad {
+  border: none !important;
+  margin: 10px !important;
+  padding: 5px 25px !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+  transition: 0.5s !important;
+  background-size: 200% auto !important;
+  color: white !important;
+  box-shadow: 0 0 20px #eee !important;
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+.btnGrad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
