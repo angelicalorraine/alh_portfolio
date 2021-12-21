@@ -3,8 +3,8 @@
 
 ## About Me
 
-#### I am a passionate Full Stack Developer with a vast
-array of knowledge in many different front and back
+#### I am a passionate Full Stack Developer 
+with a vast array of knowledge in many different front and back
 end languages, responsive frameworks and
 databases while using best code practices. Immense
 ability to quickly adapt and adjust to new learning
