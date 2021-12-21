@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Table, Button, Badge } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import web from "../assets/web.png";
 import interfaceD from "../assets/interface.png";
 import visual from "../assets/visual.png";
@@ -61,7 +61,60 @@ const BadgeTable = () => {
       alt: "User Experience and Design Thinking Badge",
     },
   ];
-  return <></>;
+  return (
+    <>
+      <Container
+        fluid
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+        }}
+      >
+        <Col>
+          <Row>
+            <Col style={{ textAlign: "center" }}>
+              <h4> Full Stack Development</h4>
+
+              <h5> University of California, Irvine 2020-2021</h5>
+            </Col>
+          </Row>
+          <Row style={{ justifyContent: "center" }}>
+            {codeBadges.map((code) => (
+              <Col md={2} style={{ padding: "0px" }}>
+                <a href={code.href} target="_blank">
+                  <Image
+                    className="badges"
+                    src={code.src}
+                    alt={code.alt}
+                  ></Image>
+                </a>
+              </Col>
+            ))}
+          </Row>
+        </Col>
+
+        <Col>
+          <Row>
+            <Col style={{ textAlign: "center" }}>
+              <h4> UX/UI Design</h4>
+
+              <h5> University of California, Irvine 2019 - 2020</h5>
+            </Col>
+          </Row>
+          <Row style={{ justifyContent: "center" }}>
+            {uxBadges.map((ux) => (
+              <Col md={2} style={{ padding: "0px" }}>
+                <a href={ux.href} target="_blank">
+                  <Image className="badges" src={ux.src} alt={ux.alt}></Image>
+                </a>
+              </Col>
+            ))}
+          </Row>
+        </Col>
+      </Container>
+    </>
+  );
 };
 
 export default BadgeTable;
