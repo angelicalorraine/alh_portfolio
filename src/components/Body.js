@@ -1,14 +1,14 @@
 import React from "react";
 import Project from "./Project";
 import About from "./About";
-import Education from "./Education";
+import Connect from "./Connect";
 
 export default function Body() {
   return (
     <>
       <About />
       <Project />
-      <Education />
+      <Connect />
     </>
   );
 }
