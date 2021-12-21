@@ -16,7 +16,7 @@ export default function Footer() {
   return (
     <>
       <Container fluid className="footer d-flex">
-        <Col sm={6} style={{ alignItems: "center" }}>
+        <Col style={{ alignItems: "center" }}>
           <h3
             style={{
               textAlign: "center",
@@ -27,7 +27,6 @@ export default function Footer() {
             Angelica Lorraine Hernandez
           </h3>
         </Col>
-        <Col sm={6}></Col>
       </Container>
     </>
   );
