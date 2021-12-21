@@ -9,6 +9,6 @@
 
 ### [Visit Me Here!](https://angelicalorraine.github.io/alh_portfolio/)
 
-### My Resume](https://github.com/angelicalorraine/alh_portfolio/blob/master/src/assets/AngelicaHernandez.Resume.pdf)
+### My Resume](AngelicaHernandez.Resume.pdf)
 
 
