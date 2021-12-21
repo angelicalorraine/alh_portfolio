@@ -9,6 +9,7 @@ import JS from "../assets/JS.png";
 import Node from "../assets/Node.png";
 import SQL from "../assets/SQL.png";
 import HTML from "../assets/HTML.png";
+import Fade from "react-reveal/Fade";
 
 const BadgeTable = () => {
   const codeBadges = [
@@ -72,45 +73,49 @@ const BadgeTable = () => {
         }}
       >
         <Col>
-          <Row>
-            <Col style={{ textAlign: "center" }}>
-              <h4> Full Stack Development</h4>
+          <Fade bottom>
+            <Row>
+              <Col style={{ textAlign: "center" }}>
+                <h4> Full Stack Development</h4>
 
-              <h5> University of California, Irvine 2020-2021</h5>
-            </Col>
-          </Row>
-          <Row style={{ justifyContent: "center" }}>
-            {codeBadges.map((code) => (
-              <Col md={2} style={{ padding: "0px" }}>
-                <a href={code.href} target="_blank">
-                  <Image
-                    className="badges"
-                    src={code.src}
-                    alt={code.alt}
-                  ></Image>
-                </a>
+                <h5> University of California, Irvine 2020-2021</h5>
               </Col>
-            ))}
-          </Row>
+            </Row>
+            <Row style={{ justifyContent: "center" }}>
+              {codeBadges.map((code) => (
+                <Col md={2} style={{ padding: "0px" }}>
+                  <a href={code.href} target="_blank">
+                    <Image
+                      className="badges"
+                      src={code.src}
+                      alt={code.alt}
+                    ></Image>
+                  </a>
+                </Col>
+              ))}
+            </Row>
+          </Fade>
         </Col>
 
         <Col>
-          <Row>
-            <Col style={{ textAlign: "center" }}>
-              <h4> UX/UI Design</h4>
+          <Fade bottom>
+            <Row>
+              <Col style={{ textAlign: "center" }}>
+                <h4> UX/UI Design</h4>
 
-              <h5> University of California, Irvine 2019 - 2020</h5>
-            </Col>
-          </Row>
-          <Row style={{ justifyContent: "center" }}>
-            {uxBadges.map((ux) => (
-              <Col md={2} style={{ padding: "0px" }}>
-                <a href={ux.href} target="_blank">
-                  <Image className="badges" src={ux.src} alt={ux.alt}></Image>
-                </a>
+                <h5> University of California, Irvine 2019 - 2020</h5>
               </Col>
-            ))}
-          </Row>
+            </Row>
+            <Row style={{ justifyContent: "center" }}>
+              {uxBadges.map((ux) => (
+                <Col md={2} style={{ padding: "0px" }}>
+                  <a href={ux.href} target="_blank">
+                    <Image className="badges" src={ux.src} alt={ux.alt}></Image>
+                  </a>
+                </Col>
+              ))}
+            </Row>
+          </Fade>
         </Col>
       </Container>
     </>

@@ -47,6 +47,7 @@ body {
   width: 100%;
   bottom: 0 !important;
   color: white !important;
+  padding: 10px;
 }
 
 h1 {
@@ -148,26 +149,6 @@ figure {
   display: flex !important;
   padding: 1rem 0px !important;
 }
-
-/* .projects { */
-/* animation-duration: 3s;
-  animation-name: slidein;
-
-  animation-direction: alternate;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-} */
 
 .card {
   background-color: transparent !important;
