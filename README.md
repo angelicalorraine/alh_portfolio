@@ -1,5 +1,5 @@
 # Angelica's Portfolio
-
+### [Visit Me Here!](https://angelicalorraine.github.io/alh_portfolio/)
 
 ## About Me
 
@@ -17,7 +17,7 @@ from my peers and work collaboratively with others
 while being able to contribute to the technology
 industry.
 
-### [Visit Me Here!](https://angelicalorraine.github.io/alh_portfolio/)
+
 
 
 
