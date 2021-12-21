@@ -49,7 +49,7 @@ export default function Social() {
   return (
     <>
       <Row style={{ width: "100%", justifyContent: "center" }}>
-        <Col sm={5}>
+        <Col sm={3}>
           <Container
             style={{
               display: "flex",
