@@ -5,7 +5,7 @@ import gel from "../assets/gelly.png";
 
 const About = () => (
   <>
-    <Container fluid className="aboutCont">
+    <Container fluid className="aboutCont p-5">
       <Row className="aboutRow">
         <Col xs={12} sm={4}>
           <Image className="gel" src={gel}></Image>
@@ -15,18 +15,18 @@ const About = () => (
           xs={12}
           sm={8}
         >
-          <h2 className="shadowsFont"> About Me </h2>
-          <p className="aboutme">
-            {" "}
-            I am a passionate Full Stack Web Developer with a vast array of
-            knowledge in many different front end and back end languages,
-            responsive frameworks, databases, and best code practices. I am
-            dedicated and eager to continue to learn, improve and update my
-            skill set and problem solving techniques. I look forward to
-            continuously gaining knowledge from my peers and work
-            collaboratively with others while being able to contribute to the
-            technology industry.
-          </p>
+          <h2 className="shadowsFont"> Who I Am </h2>
+          <p className="aboutme" style={{ textAlign: "center" }}>
+            I'm am a certified UX/UI Designer & Full Stack Developer based in
+            Orange County, I received my certificates through UC Irvine Division
+            of Continuing Education. Computers and technnology have always come
+            second nature to me, whether it was setting things up, fixing
+            issues, learning something new or just lending a helping hand. I
+            always knew I wanted to be apart of this industry in some way, but
+            after completing The Coding Bootcamp I feel like I finally found my
+            passion in life.
+          </p>{" "}
+          <h5> Let's create something special </h5>
         </Col>
       </Row>
     </Container>

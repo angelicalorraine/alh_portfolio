@@ -20,7 +20,7 @@ const projects = [
   {
     name: "lftProject",
     src: study,
-    title: "Studdy Buddy",
+    title: "Study Buddy",
     text: "Our knowledge and newly learned skills were put to the test by creating a web application from scratch.We conceived and executed a design and integrated data received from multiple server- side API requests. Study Buddy was built with the developer in mind, we are committed to being lifelong students.When searching a question or topic and the results will show you only resolved results from StackOverflow along with suggested tutorials! ",
     github: "https://github.com/angelicalorraine/Study_Buddy",
     launch: "https://angelicalorraine.github.io/Study_Buddy/",
