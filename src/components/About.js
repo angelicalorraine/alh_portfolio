@@ -24,7 +24,7 @@ const About = () => (
               fixing issues, learning something new or just lending a helping
               hand. I always knew I wanted to be apart of this industry in one
               way or another, but now after completing The Coding Bootcamp I
-              feel like I finally found my passion in sodtware development.
+              feel like I finally found my passion in software development.
             </p>{" "}
             <h5 style={{ fontStyle: "italic" }}>
               {" "}
