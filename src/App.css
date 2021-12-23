@@ -91,8 +91,8 @@ p {
 }
 
 .gel {
-  width: 340px;
-  height: 455px;
+  width: 450px;
+  height: auto;
   object-fit: cover;
   /* box-shadow: 7px 5px 5px 5px rgba(108, 108, 109, 0.2); */
   /* box-shadow: -1em 0 0.4em rgba(68, 68, 68, 0.39); */
