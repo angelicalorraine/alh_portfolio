@@ -81,9 +81,17 @@ const BadgeTable = () => {
                 <h5> University of California, Irvine 2020-2021</h5>
               </Col>
             </Row>
-            <Row style={{ justifyContent: "center" }}>
+            <Row style={{ justifyContent: "center", paddingLeft: "15px" }}>
               {codeBadges.map((code) => (
-                <Col md={2} style={{ padding: "0px" }}>
+                <Col
+                  md={1}
+                  style={{
+                    marginRight: "15px",
+                    padding: "0px",
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
                   <a href={code.href} target="_blank">
                     <Image
                       className="badges"
@@ -106,9 +114,23 @@ const BadgeTable = () => {
                 <h5> University of California, Irvine 2019 - 2020</h5>
               </Col>
             </Row>
-            <Row style={{ justifyContent: "center" }}>
+            <Row
+              style={{
+                justifyContent: "center",
+                alignItems: "center",
+                paddingLeft: "15px",
+              }}
+            >
               {uxBadges.map((ux) => (
-                <Col md={2} style={{ padding: "0px" }}>
+                <Col
+                  md={1}
+                  style={{
+                    marginRight: "20px",
+                    padding: "0px",
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                >
                   <a href={ux.href} target="_blank">
                     <Image className="badges" src={ux.src} alt={ux.alt}></Image>
                   </a>
