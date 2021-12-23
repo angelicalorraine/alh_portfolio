@@ -9,12 +9,6 @@ const About = () => (
   <>
     <Container fluid className="aboutCont p-4">
       <Row className="aboutRow">
-        <Col xs={12} sm={4}>
-          <Slide left>
-            <Image className="gel" src={gel}></Image>
-          </Slide>
-        </Col>
-
         <Col
           className="about flex-column justify-content-center"
           xs={12}
@@ -37,6 +31,12 @@ const About = () => (
               Let's create something special{" "}
             </h5>
           </Fade>
+        </Col>
+
+        <Col xs={12} sm={4}>
+          <Slide right>
+            <Image className="gel" src={gel}></Image>
+          </Slide>
         </Col>
       </Row>
     </Container>
