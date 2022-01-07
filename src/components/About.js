@@ -15,7 +15,7 @@ const About = () => (
           sm={8}
         >
           <Fade top>
-            <h2 className="shadowsFont"> Allow me to introduce myself..</h2>
+            <h3 className="shadowsFont"> Allow Me to Introduce Myself</h3>
             <p className="aboutme" style={{ textAlign: "center" }}>
               I'm am a certified UX/UI Designer & Full Stack Developer based in
               Orange County, I received my certificates through UC Irvine
@@ -25,9 +25,9 @@ const About = () => (
               has always been to pursue a career in this industry, and I can
               confidently say I found my passion in software development.
             </p>
-            <h5 style={{ fontStyle: "italic" }}>
-              Let's create something special
-            </h5>
+            <h4 style={{ fontStyle: "italic" }}>
+              Let's Create Something Special!
+            </h4>
           </Fade>
         </Col>
 
