@@ -41,7 +41,7 @@ const socials = [
   {
     social: "Github",
     icon: github,
-    link: "https://www.linkedin.com/in/angelica-hernandez-301369130/",
+    link: "https://github.com/angelicalorraine",
   },
 ];
 
