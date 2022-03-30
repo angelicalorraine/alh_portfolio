@@ -3,11 +3,11 @@ import { Container, Button, Col, Row, Figure, Image } from "react-bootstrap";
 
 import resume from "../assets/AngelicaHernandez.Resume.pdf";
 import resumepic from "../assets/resume.png";
-import email from "../assets/email.svg";
-import phone from "../assets/phone.svg";
-import download from "../assets/download.svg";
-import linkedIn from "../assets/LI.png";
-import github from "../assets/GH.png";
+import email from "../assets/email.png";
+import phone from "../assets/phone.png";
+import download from "../assets/download.png";
+import linkedIn from "../assets/linkedin.png";
+import github from "../assets/git.png";
 import {
   faDownload,
   faPhone,
@@ -21,7 +21,7 @@ const socials = [
   {
     social: "Resume",
     icon: download,
-    link: resume,
+    link: "https://drive.google.com/file/d/1VWvvwVWdWN1bJO_L9YtEJvNSwl077mPF/view?usp=sharing",
   },
   {
     social: "Phone",
