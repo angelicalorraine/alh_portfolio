@@ -1,9 +1,7 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
 import "../App.css";
-import github from "../assets/GH.png";
-import linkedIn from "../assets/LI.png";
-import resume from "../assets/AngelicaHernandez.Resume.pdf";
+
 import {
   faDownload,
   faPhone,

@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Button, Col, Row, Figure, Image } from "react-bootstrap";
 
-import resume from "../assets/AngelicaHernandez.Resume.pdf";
-import resumepic from "../assets/resume.png";
 import email from "../assets/email.png";
 import phone from "../assets/phone.png";
 import download from "../assets/download.png";
