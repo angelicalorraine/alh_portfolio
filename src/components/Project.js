@@ -41,7 +41,7 @@ const projects = [
 function Project() {
   return (
     <>
-      <Container fluid>
+      <Container fluid className="p-2">
         <h2 className="shadowsFont">Projects</h2>
 
         {projects.map((project) => (

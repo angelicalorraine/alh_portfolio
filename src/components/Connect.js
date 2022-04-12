@@ -11,7 +11,6 @@ export default function Connect() {
         <h2 className="shadowsFont pb-4">Let's Connect!</h2>
       </Row>
       <Container
-        fluid
         style={{
           display: "flex",
           justifyContent: "center",

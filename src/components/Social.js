@@ -1,16 +1,10 @@
 import React from "react";
-import { Container, Button, Col, Row, Figure, Image } from "react-bootstrap";
-
+import { Container, Col, Row, Image } from "react-bootstrap";
 import email from "../assets/email.png";
 import phone from "../assets/phone.png";
 import download from "../assets/download.png";
 import linkedIn from "../assets/linkedin.png";
 import github from "../assets/git.png";
-import {
-  faDownload,
-  faPhone,
-  faEnvelope,
-} from "@fortawesome/free-solid-svg-icons";
 import BadgeTable from "./BadgeTable";
 
 import Slide from "react-reveal/Slide";
@@ -47,12 +41,13 @@ export default function Social() {
   return (
     <>
       <Row style={{ width: "100%", justifyContent: "center" }}>
-        <Col sm={3}>
+        <Col sm={6}>
           <Container
             style={{
               display: "flex",
               flexDirection: "column",
-              justifyContent: "center",
+              // justifyContent: "center",
+              paddingLeft: "90px",
             }}
           >
             <Slide left>
@@ -64,7 +59,7 @@ export default function Social() {
                       display: "flex",
                       alignItems: "flex-start",
                       justifyContent: "center",
-                      padding: "0px",
+                      paddingLeft: "0px",
                     }}
                   >
                     <a href={social.link} target="_blank">
@@ -86,7 +81,7 @@ export default function Social() {
           </Container>
         </Col>
 
-        <Col sm={7}>
+        <Col sm={6}>
           <BadgeTable />
         </Col>
       </Row>
